@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # info for auto mount service
-SCRIPT_PATH="/home/student/Documents/bnb/mount_public_share.sh"
+SCRIPT_PATH="/home/student/Documents/bnb/mount_public.share.sh"
 SERVICE_NAME="mount-public-all.service"
 SERVICE_FILE="/etc/systemd/system/${SERVICE_NAME}"
 
