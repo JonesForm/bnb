@@ -23,7 +23,7 @@ if [ $? -eq 0 ]; then
 
   # enable authentication
   echo "Configuring authentication..."
-  sudo authselect select winbind -w --force
+  sudo authselect select sssd with-mkhomedir -w --force
 
   echo "joined ${DOMAIN}"
 else
